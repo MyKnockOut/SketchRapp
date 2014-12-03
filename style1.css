@@ -1,0 +1,152 @@
+/*
+CANVAS LOGO:
+http://commons.wikimedia.org/wiki/File:Html5_canvas_logo.png
+
+FLICKR LOGO:;
+https://www.facebook.com/photo.php?fbid=10151667452724602&set=a.467380624601.280058.9447029601&type=1&theater
+
+BACKGROUND images:
+http://www.subtlepatterns.com
+
+CANVAS image - motorbike:
+My own picture taken from my iPhone
+*/
+
+body{
+	background-image: url('furley_bg.png') !important;
+}
+header{
+	display: block;
+}
+#PKT_header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    border-bottom: 1px solid #5A5A5A;
+    background: -moz-linear-gradient(center top , #101010 0px, #5A5A5A 96%) repeat scroll 0% 0% transparent;
+    transform: translate3d(0px, 0px, 0px);
+    z-index: 1000;
+    position: fixed;
+}
+
+.rainbowDash {
+    width: 100%;
+    height: 4px;
+}
+
+.rainbowDash .blue, .rainbowDash .green, .rainbowDash .orange, .rainbowDash .red {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.rainbowDash .green {
+    background-color: #83EDB8;
+}
+.rainbowDash .blue {
+    background-color: #50BCB6;
+}
+.rainbowDash .red {
+    background-color: #EE4256;
+}
+.rainbowDash .orange {
+    background-color: #FCB64B;
+}
+
+
+
+
+
+
+.navbar{
+	border-bottom: 1px solid #F0F0F0;
+	margin-bottom: 0;
+	text-shadow: 0px 1px black;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25), 0px 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+#flickr{
+	display: none;
+	margin-bottom: 200px;
+}
+
+#myCanvas{
+	display: block;
+	margin:auto;
+	cursor:crosshair;
+	border:1px solid black;
+	background:url(motorbike.jpg);
+}
+#switch{
+	position: absolute;
+	top:75px;
+	left:20px;
+	cursor: pointer;
+}
+#switch img{
+	width:50px;
+	height:50px;
+}
+
+.navbar{
+	border-radius: 0px;
+}
+
+/*Custom*/
+.fr{
+	float: right;
+}
+.center{
+	text-align: center;
+}
+#tools{
+ 	padding: 10px;
+	margin-bottom: 10px;
+	
+	height:55px;
+}
+#tools label{
+	color:#ddd;
+}
+
+#quote{
+	background-color: #fff;
+	padding: 10px;
+	margin-top: 50px;
+	box-shadow: 0px 1px 10px #bbb inset;
+}
+#imgContainer{
+	background-image: url('woven.png');
+	border-sizing: border-box;
+	-moz-border-sizing: border-box;
+	border:10px solid rgba(240,240,240,0.6);
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	color:#ddd;
+	margin-top: 10px;
+}
+#imgContainer img{
+	margin: 5px;
+}
+.rowTag{
+	margin-top:6px;
+}
+
+#iconTags{
+	font-size: 0.8em;
+	color:#9C9C9C;
+}
+#iconSuccess{
+	margin-top:5px;
+	margin-left: 5px;
+	color:#5cb85c;
+}
+#iconAlert{
+	margin-right: 5px;
+	color:#fff;
+}
+#iconNoRes{
+	margin-right: 5px;
+	color:#d9534f;
+}
